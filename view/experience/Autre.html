@@ -1,40 +1,85 @@
 <!DOCTYPE html>
-<!-- Spécification du langage de la page et du sens de lecture -->
+<!-- Specification of the page language and reading direction. Here : french, left to right. -->
 <html lang="fr" dir="ltr">
 
 <head>
 
-<!-- Prise en charge des accents et autres caractères spéciaux -->
+  <!-- BASIC META - MINIMAL CONFIGURATION -->
+
+  <!-- Support for accents and other special characters -->
   <meta charset="utf-8" />
-  <!-- Pour être responsive -->
+  <!-- For responsive design -->
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <!-- Compatibilité internet explorer -->
+  <!-- Internet Explorer Compatibility -->
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-   <!-- CDN de font awesome pour l'utilisation des fa-fa et des icones -->
-  <!-- <script src="https://kit.fontawesome.com/eaadffbb2b.js"></script> -->
-  <script src="../../assets/eaadffbb2b.js"></script>
-    <!-- CDN de Bootstrap -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link rel="stylesheet" href="../../assets/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-<!-- Lien script pour animer -->
- <!-- <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> -->
- <link href="../../assets/aos.css" rel="stylesheet">
-  <!-- Lien pour le scroll to top -->
+  <!-- The description that the browser should display in its results -->
+  <meta name="description"
+    content="Full-Stack Developer, Python, JS, PHP, HMTL/CSS & WordPress, human relationship (#easierLife, #healthierLife), Green code (#ecology), Applications - UX design - E-commerce - Machine Learning - AI">
+
+  <!-- Bootstrap CDN -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="../../assets/CDN/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <!-- CSS link for animation -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link href="../../assets/CDN/aos.css" rel="stylesheet">
+  <!-- CSS link for the scroll to top -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="../../assets/font-awesome.min.css">
+  <link rel="stylesheet" href="../../assets/CDN/font-awesome.min.css">
   <link href="https://fonts.googleapis.com/css?family=Merriweather:400,900,900i" rel="stylesheet">
-  <link href="../../assets/css?family=Merriweather:400,900,900i.css" rel="stylesheet">
-<!-- Lien avec la page CSS (toujours après Bootstrap pour éviter les bug) -->
-  <link rel="stylesheet" href="../../assets/style.css">
-<!-- Lien éventuel pour l'utilisation d'une police -->
-  <!-- <link href="https://fonts.googleapis.com/css?family=Merienda" rel="stylesheet"> -->
-  <link href="../../assets/merienda.css" rel="stylesheet">
-  <!-- <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet"> -->
-  <link href="../../assets/roboto.css" rel="stylesheet">
-   <!-- Lien pour placer une icone dans l'onglet, avant le titre de la page -->
-  <link rel="icon" href="../../img/images/icon/2341.png">
-  <!-- Titre de la page affiché dans l'onglet -->
+  <link href="../../assets/CDN/merriweather.css" rel="stylesheet">
+  <!-- Link to CSS page -->
+  <link rel="stylesheet" href="../../assets/CSS/style.css">
+  <!-- Link to CSS specific to this page -->
+  <link rel="stylesheet" href="../../assets/CSS/experience.css">
+  <!-- Link for the font -->
+  <link href="https://fonts.googleapis.com/css?family=Merienda" rel="stylesheet">
+  <link href="../../assets/CDN/merienda.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+  <link href="../../assets/CDN/roboto.css" rel="stylesheet">
+  <!-- thumbnail icon -->
+  <link rel="icon" href="../../img/images/dragon-face_1f432.png">
+
+  <!-- thumbnail title -->
   <title>Paul Compère - Développeur</title>
+
+
+  <!-- OPEN GRAPH DATA - OPTIMIZED FOR FACEBOOK -->
+
+  <meta property="og:title" content="Paul Compère - Développeur" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://paul-compere.github.io/developpeur.web/" />
+  <meta property="og:image" content="http://paul-compere.github.io/img/images/doomsday.svg" />
+  <meta property="og:description"
+    content="Full-Stack Developer, Python, JS, PHP, HMTL/CSS & WordPress, human relationship (#easierLife, #healthierLife), Green code (#ecology), Applications - UX design - E-commerce - Machine Learning - AI" />
+
+
+  <!-- TWITTER CARD DATA -->
+
+  <meta name="twitter:card" content="icon">
+  <meta name="twitter:site" content="@Paul Compère - Développeur">
+  <meta name="twitter:title" content="Paul Compère - Développeur">
+  <meta name="twitter:description"
+    content="Full-Stack Developer, Python, JS, PHP, HMTL/CSS & WordPress, human relationship (#easierLife, #healthierLife), Green code (#ecology), Applications - UX design - E-commerce - Machine Learning - AI">
+  <meta name="twitter:creator" content="@ShaolinSpirit76">
+  <!-- Twitter Summary card images must be at least 200x200px -->
+  <meta name="twitter:image" content="http://paul-compere.github.io/img/images/doomsday.svg">
+
+
+  <!-- SCHEMA.ORG MARKUP FOR GOOGLE+ -->
+
+  <meta itemprop="name" content="Paul Compère - Développeur">
+  <meta itemprop="description"
+    content="Full-Stack Developer, Python, JS, PHP, HMTL/CSS & WordPress, human relationship (#easierLife, #healthierLife), Green code (#ecology), Applications - UX design - E-commerce - Machine Learning - AI">
+  <meta itemprop="image" content="http://paul-compere.github.io/img/images/doomsday.svg">
+
+
+  <!-- GOOGLE AUTHORSHIP AND PUBLISHER MARKUP -->
+
+  <link rel="author" href="https://github.com/ShaolinSpirit76" />
+  <link rel="publisher" href="https://paul-compere.github.io/developpeur.web/" />
+
 
 </head>
 
@@ -52,7 +97,9 @@
 
   <nav id="menu1" class="navbar navbar-expand-lg sticky-top">
     <a class="navbar-brand" href="#"></a>
-    <button id="navButton" class="navbar-toggler mx-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <button id="navButton" class="navbar-toggler mx-auto" type="button" data-toggle="collapse"
+      data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+      aria-label="Toggle navigation">
       <span id="textNavButton" class="text-white">Cliquez pour voir le menu</span>
     </button>
 
@@ -67,23 +114,29 @@
           <a class="clickTop home nav-link" href="../../index.html">Accueil</a>
         </li>
         <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Compétences
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="clickproScol dropdown-item" href="../competences/Projets-Etudes.html" style="color:#e65100;"><B>Projets d'étude</B></a>
-                <a class="clickOC dropdown-item" href="../competences/Certif-OC.html" style="color:#e65100;"><B>Certificats OC</B></a>     
-            </div>
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Compétences
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="clickproScol dropdown-item" href="../competences/Projets-Etudes.html"
+              style="color:#e65100;"><B>Projets d'étude</B></a>
+            <a class="clickOC dropdown-item" href="../competences/Certif-OC.html" style="color:#e65100;"><B>Certificats
+                OC</B></a>
+          </div>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
             Expérience
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="clickInfo informatique dropdown-item" href="Info.html" style="color:#e65100;"><B>En informatique</B></a>
+            <a class="clickInfo informatique dropdown-item" href="Info.html" style="color:#e65100;"><B>En
+                informatique</B></a>
             <a class="clickAutre autre dropdown-item" href="Autre.html" style="color:#e65100;"><B>Autre</B></a>
             <div class="dropdown-divider"></div>
-            <a class="clickEnseignement enseignement dropdown-item" href="Enseignement.html" style="color:#e65100;"><B>Dans l'enseignement</B></a>
+            <a class="clickEnseignement enseignement dropdown-item" href="Enseignement.html"
+              style="color:#e65100;"><B>Dans l'enseignement</B></a>
           </div>
         </li>
         <li class="nav-item">
@@ -100,7 +153,8 @@
           <a class="clickTop1 lsr nav-link" href="../Loisirs.html">Loisirs</a>
         </li>
         <li class="nav-item">
-          <a data-toggle="collapse" data-target="#navbarSupportedContent" class="clickContact ctc nav-link" href="#image7">Contact</a>
+          <a data-toggle="collapse" data-target="#navbarSupportedContent" class="clickContact ctc nav-link"
+            href="#image7">Contact</a>
         </li>
       </ul>
       <ul class="navbar-nav ml-auto text-center">
@@ -128,154 +182,163 @@
 
 
 
-<a class="buttonScroll"></a>
-    
-      <div id="autre">
+  <a class="buttonScroll"></a>
 
-        <div class="row col-lg-10 col-md-10 col-sm-12 mx-auto">
-          <h3><span class="info badge text-white mx-auto">Autre</span></h3>
+  <div id="autre">
 
-          <table class="info table table-bordered table-dark">
-            <thead class="text-center">
-              <tr id="TH2">
-                <th class="marge2" scope="col">Période</th>
-                <th class="marge2" scope="col">Emploi</th>
-                <th class="marge2" scope="col">Lieu</th>
-                <th class="marge2" scope="col">Certificat</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td class="text-center"><B><br /><br />Septembre 2018</B></td>
-                <td class="text-center">
-                  <div class="accordion" id="Experience6"><br />
-                    <div class="info card">
-                      <div class="info card-header" id="E6">
-                        <h2 class="mb-0">
-                          <button class="titleColor btn btn-link collapsed text-center" type="button" data-toggle="collapse" data-target="#collapseE6" aria-expanded="false" aria-controls="collapseE6">
-                            <B>Inventoriste (intérim)</B>
-                          </button>
-                        </h2>
-                      </div>
-                      <div id="collapseE6" class="informatique1 collapse" aria-labelledby="E6" data-parent="#Experience6">
-                        <div class="card-body text-dark text-justify">
-                          <p><B>Inventaire des pièces du magasin (Leclerc et Leroy Merlin), comptage d'articles, utilisation de la douchette.</B></p>
-                        </div>
-                      </div>
+    <div class="row col-lg-10 col-md-10 col-sm-12 mx-auto">
+      <h3><span class="info badge text-white mx-auto">Autre</span></h3>
+
+      <table class="info table table-bordered table-dark">
+        <thead class="text-center">
+          <tr id="TH2">
+            <th class="marge2" scope="col">Période</th>
+            <th class="marge2" scope="col">Emploi</th>
+            <th class="marge2" scope="col">Lieu</th>
+            <th class="marge2" scope="col">Certificat</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="text-center"><B><br /><br />Septembre 2018</B></td>
+            <td class="text-center">
+              <div class="accordion" id="Experience6"><br />
+                <div class="info card">
+                  <div class="info card-header" id="E6">
+                    <h2 class="mb-0">
+                      <button class="titleColor btn btn-link collapsed text-center" type="button" data-toggle="collapse"
+                        data-target="#collapseE6" aria-expanded="false" aria-controls="collapseE6">
+                        <B>Inventoriste (intérim)</B>
+                      </button>
+                    </h2>
+                  </div>
+                  <div id="collapseE6" class="informatique1 collapse" aria-labelledby="E6" data-parent="#Experience6">
+                    <div class="card-body text-dark text-justify">
+                      <p><B>Inventaire des pièces du magasin (Leclerc et Leroy Merlin), comptage d'articles, utilisation
+                          de la douchette.</B></p>
                     </div>
                   </div>
-                </td>
-                <td class="font-italic text-center">
-                  <div class="accordion" id="Experience6"><br />
-                    <div class="info card">
-                      <div class="card-header" id="E6">
-                        <h2 class="mb-0">
-                          <button class="titleColor btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseE6" aria-expanded="false" aria-controls="collapseE6">
-                            <B>RGIS</B>
-                          </button>
-                        </h2>
-                      </div>
-                      <div id="collapseE6" class="informatique1 collapse" aria-labelledby="E6" data-parent="#Experience6">
-                        <div class="card-body text-dark text-center">
-                          <p><B>Le Petit Quevilly, 76140</B></p>
-                        </div>
-                      </div>
+                </div>
+              </div>
+            </td>
+            <td class="font-italic text-center">
+              <div class="accordion" id="Experience6"><br />
+                <div class="info card">
+                  <div class="card-header" id="E6">
+                    <h2 class="mb-0">
+                      <button class="titleColor btn btn-link collapsed" type="button" data-toggle="collapse"
+                        data-target="#collapseE6" aria-expanded="false" aria-controls="collapseE6">
+                        <B>RGIS</B>
+                      </button>
+                    </h2>
+                  </div>
+                  <div id="collapseE6" class="informatique1 collapse" aria-labelledby="E6" data-parent="#Experience6">
+                    <div class="card-body text-dark text-center">
+                      <p><B>Le Petit Quevilly, 76140</B></p>
                     </div>
                   </div>
-                </td>
-                <td class="text-center"><a href="../../img/certif/adecco.pdf" target="_blank"><img src="../../img/certif/adecco_mini.png" alt="Certificat de travail" title="Cliquez pour afficher"></a></td>
-              </tr>
-              <tr>
-                <td class="text-center"><B><br /><br />Juillet - Août 2014</B></td>
-                <td class="text-center">
-                  <div class="accordion" id="Experience7"><br />
-                    <div class="info card">
-                      <div class="info card-header" id="E7">
-                        <h2 class="mb-0">
-                          <button class="titleColor btn btn-link collapsed text-center" type="button" data-toggle="collapse" data-target="#collapseE7" aria-expanded="false" aria-controls="collapseE7">
-                            <B>Manutentionnaire (échelon 1) pour les moissons</B>
-                          </button>
-                        </h2>
-                      </div>
-                      <div id="collapseE7" class="informatique1 collapse" aria-labelledby="E7" data-parent="#Experience7">
-                        <div class="card-body text-dark">
-                          <p><B>Conduite d'engin de chantier de catégorie 9 (télescopique), pesée et échantillonnage de grain.</B></p>
-                        </div>
-                      </div>
+                </div>
+              </div>
+            </td>
+            <td class="text-center"><a href="../../img/certif/adecco.pdf" target="_blank"><img
+                  src="../../img/certif/adecco_mini.png" alt="Certificat de travail" title="Cliquez pour afficher"></a>
+            </td>
+          </tr>
+          <tr>
+            <td class="text-center"><B><br /><br />Juillet - Août 2014</B></td>
+            <td class="text-center">
+              <div class="accordion" id="Experience7"><br />
+                <div class="info card">
+                  <div class="info card-header" id="E7">
+                    <h2 class="mb-0">
+                      <button class="titleColor btn btn-link collapsed text-center" type="button" data-toggle="collapse"
+                        data-target="#collapseE7" aria-expanded="false" aria-controls="collapseE7">
+                        <B>Manutentionnaire (échelon 1) pour les moissons</B>
+                      </button>
+                    </h2>
+                  </div>
+                  <div id="collapseE7" class="informatique1 collapse" aria-labelledby="E7" data-parent="#Experience7">
+                    <div class="card-body text-dark">
+                      <p><B>Conduite d'engin de chantier de catégorie 9 (télescopique), pesée et échantillonnage de
+                          grain.</B></p>
                     </div>
                   </div>
-                </td>
-                <td class="font-italic text-center">
-                  <div class="accordion" id="Experience7"><br />
-                    <div class="info card">
-                      <div class="card-header" id="E7">
-                        <h2 class="mb-0">
-                          <button class="titleColor btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseE7" aria-expanded="false" aria-controls="collapseE7">
-                            <B>Euragri Services (Alternae)</B>
-                          </button>
-                        </h2>
-                      </div>
-                      <div id="collapseE7" class="informatique1 collapse" aria-labelledby="E7" data-parent="#Experience7">
-                        <div class="card-body text-dark text-center">
-                          <p><B>Site du Neubourg, 27110</B></p>
-                        </div>
-                      </div>
+                </div>
+              </div>
+            </td>
+            <td class="font-italic text-center">
+              <div class="accordion" id="Experience7"><br />
+                <div class="info card">
+                  <div class="card-header" id="E7">
+                    <h2 class="mb-0">
+                      <button class="titleColor btn btn-link collapsed" type="button" data-toggle="collapse"
+                        data-target="#collapseE7" aria-expanded="false" aria-controls="collapseE7">
+                        <B>Euragri Services (Alternae)</B>
+                      </button>
+                    </h2>
+                  </div>
+                  <div id="collapseE7" class="informatique1 collapse" aria-labelledby="E7" data-parent="#Experience7">
+                    <div class="card-body text-dark text-center">
+                      <p><B>Site du Neubourg, 27110</B></p>
                     </div>
                   </div>
-                </td>
-                <td class="text-center"><a href="../../img/certif/euragri.jpg" target="_blank"><img src="../../img/certif/euragri_mini.jpg" alt="Certificat de travail" title="Cliquez pour afficher"></a></td>
-              </tr>
-              <tr>
-                <td class="text-center"><B><br /><br />Décembre 2010 - <br /> Novembre 2012</B></td>
-                <td class="text-center">
-                  <div class="accordion" id="Experience8"><br />
-                    <div class="info card">
-                      <div class="info card-header" id="E8">
-                        <h2 class="mb-0">
-                          <button class="titleColor btn btn-link collapsed text-center" type="button" data-toggle="collapse" data-target="#collapseE8" aria-expanded="false" aria-controls="collapseE8">
-                            <B>Préparateur de commande (contrat étudiant)</B>
-                          </button>
-                        </h2>
-                      </div>
-                      <div id="collapseE8" class="informatique1 collapse" aria-labelledby="E8" data-parent="#Experience8">
-                        <div class="card-body text-dark text-justify">
-                          <p><B>Principalement posté au Sec et aux Fruits et Légumes, parfois à la Masse et au Frais. Les samedis et les vacances scolaire en quart (principalement de nuit).</B></p>
-                        </div>
-                      </div>
+                </div>
+              </div>
+            </td>
+            <td class="text-center"><a href="../../img/certif/euragri.jpg" target="_blank"><img
+                  src="../../img/certif/euragri_mini.jpg" alt="Certificat de travail" title="Cliquez pour afficher"></a>
+            </td>
+          </tr>
+          <tr>
+            <td class="text-center"><B><br /><br />Décembre 2010 - <br /> Novembre 2012</B></td>
+            <td class="text-center">
+              <div class="accordion" id="Experience8"><br />
+                <div class="info card">
+                  <div class="info card-header" id="E8">
+                    <h2 class="mb-0">
+                      <button class="titleColor btn btn-link collapsed text-center" type="button" data-toggle="collapse"
+                        data-target="#collapseE8" aria-expanded="false" aria-controls="collapseE8">
+                        <B>Préparateur de commande (contrat étudiant)</B>
+                      </button>
+                    </h2>
+                  </div>
+                  <div id="collapseE8" class="informatique1 collapse" aria-labelledby="E8" data-parent="#Experience8">
+                    <div class="card-body text-dark text-justify">
+                      <p><B>Principalement posté au Sec et aux Fruits et Légumes, parfois à la Masse et au Frais. Les
+                          samedis et les vacances scolaire en quart (principalement de nuit).</B></p>
                     </div>
                   </div>
-                </td>
-                <td class="font-italic text-center">
-                  <div class="accordion" id="Experience8"><br />
-                    <div class="info card">
-                      <div class="card-header" id="E8">
-                        <h2 class="mb-0">
-                          <button class="titleColor btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseE8" aria-expanded="false" aria-controls="collapseE8">
-                            <B>Entrepôt LIDL</B>
-                          </button>
-                        </h2>
-                      </div>
-                      <div id="collapseE8" class="informatique1 collapse" aria-labelledby="E8" data-parent="#Experience8">
-                        <div class="card-body text-dark text-center">
-                          <p><B>Bourg-Achard, 27310</B></p>
-                        </div>
-                      </div>
+                </div>
+              </div>
+            </td>
+            <td class="font-italic text-center">
+              <div class="accordion" id="Experience8"><br />
+                <div class="info card">
+                  <div class="card-header" id="E8">
+                    <h2 class="mb-0">
+                      <button class="titleColor btn btn-link collapsed" type="button" data-toggle="collapse"
+                        data-target="#collapseE8" aria-expanded="false" aria-controls="collapseE8">
+                        <B>Entrepôt LIDL</B>
+                      </button>
+                    </h2>
+                  </div>
+                  <div id="collapseE8" class="informatique1 collapse" aria-labelledby="E8" data-parent="#Experience8">
+                    <div class="card-body text-dark text-center">
+                      <p><B>Bourg-Achard, 27310</B></p>
                     </div>
                   </div>
-                </td>
-                <td class="text-center"><a href="../../img/certif/lidl.jpg" target="_blank"><img src="../../img/certif/lidl_mini.jpg" alt="Certificat de travail" title="Cliquez pour afficher"></a></td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
+                </div>
+              </div>
+            </td>
+            <td class="text-center"><a href="../../img/certif/lidl.jpg" target="_blank"><img
+                  src="../../img/certif/lidl_mini.jpg" alt="Certificat de travail" title="Cliquez pour afficher"></a>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
 
-      </div>
-
-
-
-
-
-
+  </div>
 
 
 
@@ -291,42 +354,58 @@
 
 
 
-      <!-- Début du footer -->
-   <div id="foot">
+
+
+
+
+
+
+  <!-- FOOTER START -->
+
+  <div id="foot">
     <footer class="main-footer">
 
-      <!-- Footer Links -->
+      <!-- Footer links - Start -->
       <div class="container mt-5 mb-4 text-center text-md-left">
         <div class="row mt-3">
 
-          <!-- First column -->
+          <!-- First column - Start -->
           <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
             <div class="photo-responsive">
-              <a href="../../img/images/moi.jpg" target="_blank"><img src="../../img/images/moi_mini.jpg" id="image7" class="img-fluid" alt="photo de profil" width="100%" height="100%" title="Cliquez pour voir l'image en taille réelle" /></a>
+              <a href="../../img/images/moi.jpg" target="_blank"><img src="../../img/images/moi_mini.jpg" id="image7"
+                  class="img-fluid" alt="photo de profil" width="100%" height="100%"
+                  title="Cliquez pour voir l'image en taille réelle" /></a>
             </div>
 
 
           </div>
-          <!-- First column -->
+          <!-- First column - End -->
 
-          <!-- Second column -->
+          <!-- Second column - Start -->
           <div id="contact" class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-4">
             <h6 class="footer-title">Contact</h6>
             <hr class="mb-4 mt-0 d-inline-block mx-auto" />
             <p>
-              <i class="fas fa-home  mr-3"></i> Région Lilloise</p>
+              <i class="fas fa-home  mr-3"></i> Région Lilloise
+            </p>
             <p id="contact">
-              <i class="fas fa-envelope mr-3"></i> <a href="mailto:paul.compere76@gmail.com" title="Cliquez pour envoyer un email">paul.compere76@gmail.com</a></p>
+              <i class="fas fa-envelope mr-3"></i> <a href="mailto:paul.compere76@gmail.com"
+                title="Cliquez pour envoyer un email">paul.compere76@gmail.com</a>
+            </p>
             <p>
-              <i class="fas fa-phone mr-3"></i> 06. 75. 87. 94. 32</p>
+              <i class="fas fa-phone mr-3"></i> 06. 75. 87. 94. 32
+            </p>
             <p>
-              <i class="fab fa-linkedin mr-3"></i> <a href="https://www.linkedin.com/in/paulcompere76/" target="_blank" title="Cliquez pour ouvrir"> Lien LinkedIn</a></p>
-              <p>
-                <i class="fab fa-discord fa-lg mr-2" title="Mon Discord"></i> ShaolinSpirit76#4052</p>
+              <i class="fab fa-linkedin mr-3"></i> <a href="https://www.linkedin.com/in/paulcompere76/" target="_blank"
+                title="Cliquez pour ouvrir"> Lien LinkedIn</a>
+            </p>
+            <p>
+              <i class="fab fa-discord fa-lg mr-2" title="Mon Discord"></i> ShaolinSpirit76#4052
+            </p>
           </div>
-          <!-- Second column -->
+          <!-- Second column - End -->
 
-          <!-- Third column -->
+          <!-- Third column - Start -->
           <div class="col-md-3 offset-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
             <h6 class="footer-title">Autres informations</h6>
             <hr class="mb-4 mt-0 d-inline-block mx-auto" />
@@ -345,15 +424,17 @@
               • <a href="../../img/English-CV_COMPERE_Paul.pdf" target="_blank" title="Click to open">International CV</a>
             </p>
             <p class="footer-legis">
-              • <a href="https://github.com/ShaolinSpirit76" target="_blank" title="Cliquez pour ouvrir">Mon Github</a><img src="../../img/images/iconfinder_github_394189.png" class="img-fluid" alt="Chat-poulpe" width="30%" height="30%" title="Github" />
+              • <a href="https://github.com/ShaolinSpirit76" target="_blank" title="Cliquez pour ouvrir">Mon
+                Github</a><img src="../../img/images/iconfinder_github_394189.png" class="img-fluid" alt="Chat-poulpe"
+                width="30%" height="30%" title="Github" />
             </p>
           </div>
-          <!-- Third column -->
+          <!-- Third column - End -->
 
           <div class="col-md-2 col-lg-1 col-xl-1 mx-auto mb-4">
           </div>
 
-          <!-- Fourth column -->
+          <!-- Fourth column - Start -->
           <div class="col-md-4 offset-md-4 col-lg-3 col-xl-3 mx-auto mb-4">
             <h6 class="footer-title">Site réalisé avec : </h6>
             <hr class="mb-4 mt-0 d-inline-block mx-auto" />
@@ -363,51 +444,58 @@
             </p>
             <p>
               <i class="fab fa-js fa-4x img-fluid" alt="logo JavaScript" title="JavaScript"></i>
-              <i class="fab fa-bootstrap fa-4x img-fluid" alt="logo Bootstrap" title="Bootstrap"></i></p>
+              <i class="fab fa-bootstrap fa-4x img-fluid" alt="logo Bootstrap" title="Bootstrap"></i>
+            </p>
           </div>
-          <!-- Fourth column -->
-
-
-
+          <!-- Fourth column - End -->
 
         </div>
       </div>
-      <!-- Footer Links -->
+      <!-- Footer links - End -->
 
 
-      <!-- Copyright -->
-      <div class="footer-copyright text-center py-3 bg-dark text-white">© 2019-2021 Copyright : Paul Compère
+      <!-- Copyright - Start -->
+      <div class="footer-copyright text-center py-3 text-white">© 2019 - 2021 | Copyright : Paul Compère 🐲
       </div>
-      <!-- Copyright -->
+      <!-- Copyright - End -->
 
     </footer>
-    <!-- Fin du footer-->
   </div>
 
+  <!-- FOOTER END -->
 
 
+  <!-- SCRIPTS -->
 
-
-
-
-<!-- CDN JavaScript toujours à la fin du body pour éviter les bug -->
-  <!-- D'abord le CDN de JQuery -->
+  <!-- JavaScript CDN always at the end of the body to avoid bugs -->
+  <!-- First : JQuery CDN -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
-  <script src="../../assets/jquery.min.js"></script>
-  <!-- Puis le CDN du Popper.js -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-  <script src="../../assets/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-   <!-- Et enfin le CDN de Bootstrap.js -->
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-  <script src="../../assets/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="../../assets/CDN/jquery.min.js"></script>
+  <!-- Then : Popper.js CDN -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="../../assets/CDN/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <!-- Finally : Bootstrap.js CDN -->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+  <script src="../../assets/CDN/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
   <!-- Sweet alert 2 -->
   <script src="https://cdn.jsdelivr.net/npm/sweetalert2@8"></script>
-  <script src="../../assets/sweetalert2@8.js"></script>
-<!-- Script pour l'animation -->
+  <script src="../../assets/CDN/sweetalert2@8.js"></script>
+  <!-- Font Awesome CDN for using fa-fa and icons -->
+  <script src="https://kit.fontawesome.com/eaadffbb2b.js"></script>
+  <script src="../../assets/CDN/eaadffbb2b.js"></script>
+  <!-- Script for animation -->
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-  <script src="../../assets/aos.js"></script>
-  <!-- Lien avec la page JS (toujours après les CDN de JQuery) -->
-  <script src="../../assets/script.js"></script>
+  <script src="../../assets/CDN/aos.js"></script>
+  <!-- Link with JS sheet (always after JQuery CDN) -->
+  <script src="../../assets/scripts/script.js"></script>
 </body>
 
 </html>

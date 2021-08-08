@@ -1,0 +1,17 @@
+/* - - - - - - - - - - - - - - - - - - - - - - */
+/*          CSS for "Creations" page           */
+/* - - - - - - - - - - - - - - - - - - - - - - */
+
+
+#creations {
+    margin-bottom: 20rem;
+}
+
+#blockCrt {
+    margin-top: 5rem;
+}
+
+.create {
+    background-color: #dcd3b2;
+    margin-top: 5rem;
+}

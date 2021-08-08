@@ -1,0 +1,69 @@
+/* - - - - - - - - - - - - - - - - - - - - - - */
+/*        CSS for "Diplomes" page              */
+/* - - - - - - - - - - - - - - - - - - - - - - */
+
+
+#diplomes {
+    margin-bottom: 20rem;
+}
+
+#blockDpl {
+    margin-top: 3rem;
+}
+
+.space {
+    margin-top: 5rem;
+}
+
+.bottom {
+    margin-bottom: 5rem;
+}
+
+.police {
+    font-family: 'Merienda', cursive;
+    color: #e65100;
+}
+
+/* - - - - - - - - - - - - - - - - - - - - - - */
+/*    Degree Cards responsive - START          */
+/* - - - - - - - - - - - - - - - - - - - - - - */
+
+@media screen and (max-width:990px) {
+    .center-mr {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 40%;
+        margin-top: 5rem;
+    }
+
+    .center-ml {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 40%;
+        margin-top: 5rem;
+    }
+}
+
+@media screen and (max-width:450px) {
+    .center-mr {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 70%;
+        margin-top: 5rem;
+    }
+
+    .center-ml {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 70%;
+        margin-top: 5rem;
+    }
+}
+
+/* - - - - - - - - - - - - - - - - - - - - - - */
+/*    Degree Cards responsive - END            */
+/* - - - - - - - - - - - - - - - - - - - - - - */

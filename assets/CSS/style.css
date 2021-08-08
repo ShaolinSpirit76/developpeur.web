@@ -1,0 +1,179 @@
+/* - - - - - - - - - - - - - - - - - - - - - - */
+/*                 CSS FOR ALL                 */
+/* - - - - - - - - - - - - - - - - - - - - - - */
+
+body {
+  /* Code to keep the image fixed and responsive */
+  margin: 0;
+  padding: 0;
+  background: url(../../img/images/fond.jpg) no-repeat center fixed;
+  /* for ancient Chrome and Safari */
+  -webkit-background-size: cover;
+  /* standardized version */
+  background-size: cover;
+}
+
+/* For all images */
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+/* For the links effects */
+a:hover {
+  color: #e65100 !important;
+}
+
+.btn-dark:hover {
+  background-color: #e65100;
+}
+
+/* CSS for categories Menu */
+#menu1 {
+  line-height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  height: auto !important;
+  width: 100% !important;
+}
+
+.home,
+.exp,
+.dpl,
+.pscol,
+.crt,
+.lsr,
+.ctc {
+  font-family: 'Merienda', cursive;
+  color: white;
+  font-size: 1rem;
+  text-align: center;
+}
+
+/* For banner style */
+
+.info {
+  background-color: rgba(0, 0, 0, 0.75);
+}
+
+.police {
+  font-family: 'Merienda', cursive;
+  color: #e65100;
+}
+
+/* For the margins */
+
+.space {
+  margin-top: 5rem;
+}
+
+.bottom {
+  margin-bottom: 5rem;
+}
+
+
+/* - - - - - - - - - - - - - - - - - - - - - - */
+/*                NAVBAR - START               */
+/* - - - - - - - - - - - - - - - - - - - - - - */
+
+#menu {
+  margin-top: 25rem;
+  line-height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  height: auto !important;
+  width: 100% !important;
+}
+
+.dropdown-menu {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.nav-link {
+  font-family: 'Merienda', cursive;
+  color: white;
+  font-size: 1rem;
+  text-align: center;
+}
+
+#navButton {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#textNavButton {
+  font-family: 'Merienda', cursive;
+  font-size: 1rem;
+}
+
+@media screen and (max-width:991px) {
+  .imgNavBar {
+    display: none;
+  }
+}
+
+/* - - - - - - - - - - - - - - - - - - - - - - */
+/*              NAVBAR - END                   */
+/* - - - - - - - - - - - - - - - - - - - - - - */
+
+
+
+
+/* - - - - - - - - - - - - - - - - - - - - - - */
+/*                 FOOTER - START              */
+/* - - - - - - - - - - - - - - - - - - - - - - */
+
+
+footer {
+  width: 100%;
+  margin-top: 12rem;
+  padding-top: 0.5rem;
+  height: auto;
+  color: rgb(255, 255, 255);
+  background-color: rgba(0, 0, 0, 0.75);
+  font-family: 'Merienda', cursive;
+}
+
+.footer-title {
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+}
+
+#contact {
+  font-size: 0.95rem;
+}
+
+.footer-legis {
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+  margin-top: 0;
+  color: rgb(255, 255, 255);
+}
+
+hr {
+  background-color: rgb(238, 83, 17);
+  width: 60px;
+  height: 1px;
+}
+
+.fa-html5 {
+  color: #f16529;
+}
+
+.fa-css3-alt {
+  color: #5423f4;
+}
+
+.fa-js {
+  color: #f7df1e;
+}
+
+.fa-bootstrap {
+  color: #563d7c;
+}
+
+.footer-copyright {
+  background-color: black;
+}
+
+/* - - - - - - - - - - - - - - - - - - - - - - */
+/*                 FOOTER - END                */
+/* - - - - - - - - - - - - - - - - - - - - - - */

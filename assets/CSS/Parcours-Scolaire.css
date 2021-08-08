@@ -1,0 +1,16 @@
+/* - - - - - - - - - - - - - - - - - - - - - - */
+/*    CSS for "Parcours-Scolaire" page         */
+/* - - - - - - - - - - - - - - - - - - - - - - */
+
+
+#ParcoursScolaire {
+    margin-bottom: 20rem;
+}
+
+#blockPscol {
+    margin-top: 5rem;
+}
+
+#Formation {
+    background-color: rgba(255, 255, 255, 0.65);
+}

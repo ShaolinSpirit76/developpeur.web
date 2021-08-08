@@ -1,42 +1,89 @@
 <!DOCTYPE html>
-<!-- Spécification du langage de la page et du sens de lecture -->
+<!-- Specification of the page language and reading direction. Here : french, left to right. -->
 <html lang="fr" dir="ltr">
 
 <head>
 
-<!-- Prise en charge des accents et autres caractères spéciaux -->
-  <meta charset="utf-8" />
-  <!-- Pour être responsive -->
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <!-- Compatibilité internet explorer -->
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-     <!-- CDN de Bootstrap -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link rel="stylesheet" href="assets/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-<!-- Lien script pour animer -->
- <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
- <link href="assets/aos.css" rel="stylesheet">
-  <!-- Lien pour le scroll to top -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="assets/font-awesome.min.css">
-  <link href="https://fonts.googleapis.com/css?family=Merriweather:400,900,900i" rel="stylesheet">
-  <link href="assets/css?family=Merriweather:400,900,900i.css" rel="stylesheet">
-<!-- Lien avec la page CSS (toujours après Bootstrap pour éviter les bug) -->
-  <link rel="stylesheet" href="assets/style.css">
-<!-- Lien éventuel pour l'utilisation d'une police -->
-  <link href="https://fonts.googleapis.com/css?family=Merienda" rel="stylesheet">
-  <link href="assets/merienda.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
-  <link href="assets/roboto.css" rel="stylesheet">
-   <!-- Lien pour placer une icone dans l'onglet, avant le titre de la page -->
-  <link rel="icon" href="img/images/icon/2341.png">
-  <!-- Titre de la page affiché dans l'onglet -->
-  <title>Paul Compère - Développeur</title>
+    <!-- Basic Meta - minimal configuration -->
+
+    <!-- Support for accents and other special characters -->
+    <meta charset="utf-8" />
+    <!-- For responsive design -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Internet Explorer Compatibility -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- The description that the browser should display in its results -->
+    <meta name="description"
+        content="Full-Stack Developer, Python, JS, PHP, HMTL/CSS & WordPress, human relationship (#easierLife, #healthierLife), Green code (#ecology), Applications - UX design - E-commerce - Machine Learning - AI">
+
+    <!-- Bootstrap CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- CSS link for animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="assets/aos.css" rel="stylesheet">
+    <!-- CSS link for the scroll to top -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather:400,900,900i" rel="stylesheet">
+    <link href="assets/css?family=Merriweather:400,900,900i.css" rel="stylesheet">
+    <!-- Link to CSS page -->
+    <link rel="stylesheet" href="assets/style.css">
+    <!-- Link for the font -->
+    <link href="https://fonts.googleapis.com/css?family=Merienda" rel="stylesheet">
+    <link href="assets/merienda.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+    <link href="assets/roboto.css" rel="stylesheet">
+    <!-- thumbnail icon -->
+    <link rel="icon" href="img/images/doomsday.jpg">
+
+    <!-- thumbnail title -->
+    <title>Paul Compère - Développeur</title>
+
+
+    <!-- Open Graph data - optimized for Facebook -->
+
+    <meta property="og:title" content="Paul Compère - Développeur" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://paul-compere.github.io/developpeur.web/" />
+    <meta property="og:image" content="http://paul-compere.github.io/img/images/doomsday.svg" />
+    <meta property="og:description"
+        content="Full-Stack Developer, Python, JS, PHP, HMTL/CSS & WordPress, human relationship (#easierLife, #healthierLife), Green code (#ecology), Applications - UX design - E-commerce - Machine Learning - AI" />
+
+
+    <!-- Twitter Card data -->
+
+    <meta name="twitter:card" content="icon">
+    <meta name="twitter:site" content="@Paul Compère - Développeur">
+    <meta name="twitter:title" content="Paul Compère - Développeur">
+    <meta name="twitter:description"
+        content="Full-Stack Developer, Python, JS, PHP, HMTL/CSS & WordPress, human relationship (#easierLife, #healthierLife), Green code (#ecology), Applications - UX design - E-commerce - Machine Learning - AI">
+    <meta name="twitter:creator" content="@ShaolinSpirit76">
+    <!-- Twitter Summary card images must be at least 200x200px -->
+    <meta name="twitter:image" content="http://paul-compere.github.io/img/images/doomsday.svg">
+
+
+    <!-- Schema.org markup for Google+ -->
+
+    <meta itemprop="name" content="Paul Compère - Développeur">
+    <meta itemprop="description"
+        content="Full-Stack Developer, Python, JS, PHP, HMTL/CSS & WordPress, human relationship (#easierLife, #healthierLife), Green code (#ecology), Applications - UX design - E-commerce - Machine Learning - AI">
+    <meta itemprop="image" content="http://paul-compere.github.io/img/images/doomsday.svg">
+
+
+    <!-- Google Authorship and Publisher Markup -->
+
+    <link rel="author" href="https://github.com/ShaolinSpirit76" />
+    <link rel="publisher" href="https://paul-compere.github.io/developpeur.web/" />
+
 
 </head>
 
-<body>
 
+
+<body>
 
 
   <!-- Début page d'accueil -->
@@ -299,6 +346,7 @@
   <script src="assets/aos.js"></script>
   <!-- Lien avec la page JS (toujours après les CDN de JQuery) -->
   <script src="assets/script.js"></script>
+
 </body>
 
 </html>

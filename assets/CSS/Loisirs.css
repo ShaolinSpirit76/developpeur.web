@@ -55,6 +55,6 @@
     visibility: visible;
 }
 
-a:hover {
+button:hover {
     color: white !important;
 }

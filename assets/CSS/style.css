@@ -60,6 +60,14 @@ a:hover {
   color: #e65100;
 }
 
+.orange {
+  color: #e65100;
+}
+
+.center {
+  text-align: center;
+}
+
 /* For the margins */
 
 .space {
@@ -173,6 +181,8 @@ hr {
 .footer-copyright {
   background-color: black;
 }
+
+
 
 /* - - - - - - - - - - - - - - - - - - - - - - */
 /*                 FOOTER - END                */

@@ -32,13 +32,23 @@ btn.on('click', function(e) {
 
 // Gestion des ancres
 
+// Certif-OC Page
 $(document).ready(function() {
-  $(".clickOC").click(function() {
+  $(".Python1").click(function() {
     $('html, body').animate({
-      scrollTop: $("#certifOC").offset().top
+      scrollTop: $("#Python1").offset().top
     }, 2000);
   });
 });
+$(document).ready(function() {
+  $(".Windows10").click(function() {
+    $('html, body').animate({
+      scrollTop: $("#Windows10").offset().top
+    }, 2000);
+  });
+});
+
+
 $(document).ready(function() {
   $(".clickproScol").click(function() {
     $('html, body').animate({

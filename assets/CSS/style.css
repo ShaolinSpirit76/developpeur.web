@@ -78,6 +78,53 @@ a:hover {
   margin-bottom: 5rem;
 }
 
+/* For the Scroll to top Button */
+
+.buttonScroll {
+  display: inline-block;
+  background-color: #000000;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border-radius: 4px;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  transition: background-color .3s,
+      opacity .5s, visibility .5s;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 1000;
+}
+
+.buttonScroll::after {
+  content: "\f077";
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 2em;
+  line-height: 50px;
+  color: #fff;
+}
+
+.buttonScroll:hover {
+  cursor: pointer;
+  background-color: #e65100;
+}
+
+.buttonScroll:active {
+  background-color: #e65100;
+}
+
+.buttonScroll.show {
+  opacity: 1;
+  visibility: visible;
+}
+
+button:hover {
+  color: white !important;
+}
+
 
 /* - - - - - - - - - - - - - - - - - - - - - - */
 /*                NAVBAR - START               */
@@ -182,6 +229,9 @@ hr {
   background-color: black;
 }
 
+#socialNetwork {
+  margin-top: -3rem;
+}
 
 
 /* - - - - - - - - - - - - - - - - - - - - - - */

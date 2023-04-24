@@ -1,10 +1,14 @@
 <!DOCTYPE html>
 <!-- Specification of the page language and reading direction. Here : french, left to right. -->
-<html lang="fr" dir="ltr">
+<html lang="fr-FR" dir="ltr">
 
 <head>
 
-  <!-- BASIC META - MINIMAL CONFIGURATION -->
+<!--|____________________________________|-->
+<!--|----------------------------------- |-->
+<!--| BASIC META - MINIMAL CONFIGURATION |-->
+<!--|----------------------------------- |-->
+<!--|____________________________________|-->
 
   <!-- Support for accents and other special characters -->
   <meta charset="utf-8" />
@@ -14,158 +18,169 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <!-- The description that the browser should display in its results -->
   <meta name="description"
-    content="Full-Stack Developer, Python, JS, PHP, HMTL/CSS & WordPress, human relationship (#easierLife, #healthierLife), Green code (#ecology), Applications - UX design - E-commerce - Machine Learning - AI">
+    content="Responsable pédagogique & développeur web full-stack - Wordpress, PHP, HMTL/CSS & JS, E-commerce">
 
-  <!-- Bootstrap CDN -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link rel="stylesheet" href="../assets/CDN/bootstrap.min.css"
-    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <!-- CSS link for animation -->
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-  <link href="../assets/CDN/aos.css" rel="stylesheet">
-  <!-- CSS link for the scroll to top -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="../assets/CDN/font-awesome.min.css">
-  <link href="https://fonts.googleapis.com/css?family=Merriweather:400,900,900i" rel="stylesheet">
-  <link href="../assets/CDN/merriweather.css" rel="stylesheet">
-  <!-- Link to CSS page -->
-  <link rel="stylesheet" href="../assets/CSS/style.css">
-  <!-- Link to CSS specific to this page -->
-  <link rel="stylesheet" href="../assets/CSS/Diplomes.css">
-  <!-- Link for the font -->
-  <link href="https://fonts.googleapis.com/css?family=Merienda" rel="stylesheet">
-  <link href="../assets/CDN/merienda.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
-  <link href="../assets/CDN/roboto.css" rel="stylesheet">
-  <!-- thumbnail icon -->
-  <link rel="icon" href="../img/images/dragon-face_1f432.png">
+<!--|____________________________________|-->
+<!--|----------------------------------- |-->
+<!--|      CDN - PROPER CONFIGURATION    |-->
+<!--|----------------------------------- |-->
+<!--|____________________________________|-->
 
-  <!-- thumbnail title -->
-  <title>Paul Compère - Développeur</title>
+   <!-- Bootstrap CDN -->
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+   integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+   <link rel="stylesheet" href="../assets/CDN/bootstrap.min.css">
+   <!-- CSS link for animation -->
+   <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+   <link rel="stylesheet" href="../assets/CDN/aos.css">
+   <!-- CSS link for the scroll to top -->
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+   <link rel="stylesheet" href="../assets/CDN/font-awesome.min.css">
+   <link href="https://fonts.googleapis.com/css?family=Merriweather:400,900,900i" rel="stylesheet">
+   <link href="../assets/CDN/merriweather/merriweather.css" rel="stylesheet">
+   <!-- Link to CSS page -->
+   <link rel="stylesheet" href="../assets/CSS/style.css">
+   <!-- Link to CSS specific to this page -->
+   <link rel="stylesheet" href="../assets/CSS/Diplomes.css">
+   <!-- Link for the font -->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <!-- Merienda -->
+     <link href="https://fonts.googleapis.com/css?family=Merienda" rel="stylesheet">
+     <link href="../assets/CDN/Merienda/merienda.css" rel="stylesheet">
+     <!-- Roboto -->
+     <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+     <link href="../assets/CDN/roboto.css" rel="stylesheet">
+   <!-- thumbnail icon -->
+   <link rel="icon" href="../img/images/dragon-face_1f432.png" 
+   alt="Tête de dragon chinois, vert et jaune.">
+   <!-- thumbnail title -->
+  <title>Paul Compère - Responsable Pédagogique & Développeur</title>
 
+<!--|____________________________________|-->
+<!--|----------------------------------- |-->
+<!--|  SEO OPTIMIZATION - SOCIAL MEDIA   |-->
+<!--|----------------------------------- |-->
+<!--|____________________________________|-->
 
-  <!-- OPEN GRAPH DATA - OPTIMIZED FOR FACEBOOK -->
+ <!-- OPEN GRAPH DATA - OPTIMIZED FOR FACEBOOK & lINKEDIN -->
 
-  <meta property="og:title" content="Paul Compère - Développeur" />
+  <meta property="og:title" content="Paul Compère - Responsable Pédagogique & Développeur" />
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://paul-compere.github.io/developpeur.web/" />
-  <meta property="og:image" content="http://paul-compere.github.io/../img/images/doomsday.svg" />
+  <meta property="og:url" content="https://shaolinspirit76.github.io/paul.compere/" />
+  <meta property="og:image" content="http://paul-compere.github.io/img/images/doomsday.svg" alt="androïde en méditation en position du lotus tel un moine bouddhiste" />
   <meta property="og:description"
-    content="Full-Stack Developer, Python, JS, PHP, HMTL/CSS & WordPress, human relationship (#easierLife, #healthierLife), Green code (#ecology), Applications - UX design - E-commerce - Machine Learning - AI" />
+    content="Responsable pédagogique & développeur web full-stack - Wordpress, PHP, HMTL/CSS & JS, E-commerce" />
+  <meta property="og:site_name" content="shaolinspirit76.github.io/paul.compere/" />
+  <meta property="og:locale" content="fr_FR" />
 
 
   <!-- TWITTER CARD DATA -->
 
-  <meta name="twitter:card" content="icon">
-  <meta name="twitter:site" content="@Paul Compère - Développeur">
-  <meta name="twitter:title" content="Paul Compère - Développeur">
+  <meta name="twitter:title" content="Paul Compère - Responsable Pédagogique & Développeur" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:site" content="@ShaolinSpirit76" />
+  <meta name="twitter:url" content="https://shaolinspirit76.github.io/paul.compere/" />
   <meta name="twitter:description"
-    content="Full-Stack Developer, Python, JS, PHP, HMTL/CSS & WordPress, human relationship (#easierLife, #healthierLife), Green code (#ecology), Applications - UX design - E-commerce - Machine Learning - AI">
-  <meta name="twitter:creator" content="@ShaolinSpirit76">
+    content="Responsable pédagogique & développeur web full-stack - Wordpress, PHP, HMTL/CSS & JS, E-commerce" />
+  <meta name="twitter:creator" content="@ShaolinSpirit76" />
   <!-- Twitter Summary card images must be at least 200x200px -->
-  <meta name="twitter:image" content="http://paul-compere.github.io/../img/images/doomsday.svg">
+  <meta name="twitter:image" content="http://paul-compere.github.io/img/images/doomsday.svg" alt="androïde en méditation en position du lotus tel un moine bouddhiste" />
 
 
   <!-- SCHEMA.ORG MARKUP FOR GOOGLE+ -->
 
-  <meta itemprop="name" content="Paul Compère - Développeur">
+  <meta itemprop="name" content="Paul Compère - Responsable Pédagogique & Développeur" />
   <meta itemprop="description"
-    content="Full-Stack Developer, Python, JS, PHP, HMTL/CSS & WordPress, human relationship (#easierLife, #healthierLife), Green code (#ecology), Applications - UX design - E-commerce - Machine Learning - AI">
-  <meta itemprop="image" content="http://paul-compere.github.io/../img/images/doomsday.svg">
+    content="Responsable pédagogique & développeur web full-stack - Wordpress, PHP, HMTL/CSS & JS, E-commerce" />
+  <meta itemprop="image" content="http://paul-compere.github.io/img/images/doomsday.svg" alt="androïde en méditation en position du lotus tel un moine bouddhiste" />
 
 
   <!-- GOOGLE AUTHORSHIP AND PUBLISHER MARKUP -->
 
   <link rel="author" href="https://github.com/ShaolinSpirit76" />
-  <link rel="publisher" href="https://paul-compere.github.io/developpeur.web/" />
+  <link rel="publisher" href="https://shaolinspirit76.github.io/paul.compere/" />
 
 
 </head>
 
 <body>
 
+ <!-- Diplômes -->
+
+ <div id="diplomes">
 
 
+  <nav id="menu1" class="navbar navbar-expand-lg sticky-top">
+    <a class="navbar-brand" href="#"></a>
+    <button id="navButton" class="navbar-toggler mx-auto" type="button" data-toggle="collapse"
+      data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+      aria-label="Toggle navigation">
+      <span id="textNavButton" class="text-white">Cliquez pour voir le menu</span>
+    </button>
 
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto text-center">
+        <li class="nav-item">
+          <img src="../img/images/viking4.png" class="img-fluid" alt="bibliothèque" width="30%" height="30%" />
+        </li>
+      </ul>
+      <ul class="navbar-nav mx-auto">
+        <li class="nav-item">
+          <a class="clickTop home nav-link" href="../index.html">Accueil</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Compétences
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="clickproScol cpt dropdown-item" href="competences/Projets-Etudes.html"
+              style="color:#e65100;"><B>Projets</B></a>
+            <a class="clickOC OC dropdown-item" href="competences/Certif-OC.html"
+              style="color:#e65100;"><B>Certificats</B></a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Expérience
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="clickInfo informatique dropdown-item" href="experience/Info.html" style="color:#e65100;"><B>En
+                informatique</B></a>
+            <a class="clickAutre autre dropdown-item" href="experience/Enseignement.html" style="color:#e65100;"><B>Enseignement</B></a>
+            <a class="clickAutre autre dropdown-item" href="experience/Autre.html" style="color:#e65100;"><B>Autre</B></a>
+            <div class="dropdown-divider"></div>
+            <a class="clickEnseignement enseignement dropdown-item" href="experience/AllExperiences.html"
+              style="color:#e65100"><B>Toutes</B></a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="clickTop1 dpl nav-link orange" href="Diplomes.html">Diplômes</a>
+        </li>
+        <li class="nav-item">
+          <a class="clickTop1 pscol nav-link" href="Parcours-Scolaire.html">Parcours scolaire</a>
+        </li>
+        <li class="nav-item">
+          <a class="clickTop1 crt nav-link" href="Creations.html">Créations</a>
+        </li>
+        <li class="nav-item">
+          <a class="clickTop1 lsr nav-link" href="Loisirs.html">Loisirs</a>
+        </li>
+        <li class="nav-item">
+          <a data-toggle="collapse" data-target="#navbarSupportedContent" class="clickContact ctc nav-link"
+            href="#image7">Contact</a>
+        </li>
+      </ul>
+      <ul class="navbar-nav ml-auto text-center">
+        <li class="nav-item">
+          <img src="../img/images/viking4.png" class="img-fluid" alt="bibliothèque" width="30%" height="30%" />
+        </li>
+      </ul>
+    </div>
+  </nav>
 
-
-
-
-  <!-- Diplômes -->
-
-  <div id="diplomes">
-
-
-    <nav id="menu1" class="navbar navbar-expand-lg sticky-top">
-      <a class="navbar-brand" href="#"></a>
-      <button id="navButton" class="navbar-toggler mx-auto" type="button" data-toggle="collapse"
-        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-        aria-label="Toggle navigation">
-        <span id="textNavButton" class="text-white">Cliquez pour voir le menu</span>
-      </button>
-
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto text-center">
-          <li class="nav-item">
-            <img src="../img/images/viking4.png" class="img-fluid" alt="bibliothèque" width="30%" height="30%" />
-          </li>
-        </ul>
-        <ul class="navbar-nav mx-auto">
-          <li class="nav-item">
-            <a class="clickTop home nav-link" href="../index.html">Accueil</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-              aria-haspopup="true" aria-expanded="false">
-              Compétences
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="clickproScol cpt dropdown-item" href="competences/Projets-Etudes.html"
-                style="color:#e65100;"><B>Projets d'étude</B></a>
-              <a class="clickOC OC dropdown-item" href="competences/Certif-OC.html"
-                style="color:#e65100;"><B>Certificats OC</B></a>
-            </div>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-              aria-haspopup="true" aria-expanded="false">
-              Expérience
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="clickInfo informatique dropdown-item" href="experience/Info.html" style="color:#e65100;"><B>En
-                  informatique</B></a>
-              <a class="clickAutre autre dropdown-item" href="experience/Autre.html"
-                style="color:#e65100;"><B>Autre</B></a>
-              <div class="dropdown-divider"></div>
-              <a class="clickEnseignement enseignement dropdown-item" href="experience/Enseignement.html"
-                style="color:#e65100;"><B>Dans l'enseignement</B></a>
-            </div>
-          </li>
-          <li class="nav-item">
-            <a class="clickTop1 dpl nav-link orange" href="Diplomes.html">Diplômes</a>
-          </li>
-          <li class="nav-item">
-            <a class="clickTop1 pscol nav-link" href="Parcours-Scolaire.html">Parcours scolaire</a>
-          </li>
-          <li class="nav-item">
-            <a class="clickTop1 crt nav-link" href="Creations.html">Créations</a>
-          </li>
-          <li class="nav-item">
-            <a class="clickTop1 lsr nav-link" href="Loisirs.html">Loisirs</a>
-          </li>
-          <li class="nav-item">
-            <a data-toggle="collapse" data-target="#navbarSupportedContent" class="clickContact ctc nav-link"
-              href="#image7">Contact</a>
-          </li>
-        </ul>
-        <ul class="navbar-nav ml-auto text-center">
-          <li class="nav-item">
-            <img src="../img/images/viking4.png" class="img-fluid" alt="bibliothèque" width="30%" height="30%" />
-          </li>
-        </ul>
-      </div>
-    </nav>
 
 
 
@@ -174,167 +189,155 @@
 
 
 
+  <a class="buttonScroll"></a>
+
+
+
+
+
+  <div id="blockDpl">
 
     <a class="buttonScroll"></a>
 
 
+    <h3><span class="info police badge col mx-auto"><br />Certification profesionnelle<br /><br /></span></h3>
 
+    <div class="space bottom row no-gutters">
 
-
-    <div id="blockDpl">
-
-      <a class="buttonScroll"></a>
-
-
-      <h3><span class="info police badge col mx-auto"><br />Certification profesionnelle<br /><br /></span></h3>
-
-      <div class="space bottom row no-gutters">
-
-        <div class="col-md-10 col-lg-5 col-sm-10 offset-sm-1 col mx-auto">
-          <div class="mx-auto card" style="width: 28rem;">
-            <a href="../img/diplome/Certif_Pro_Dev_web.pdf" target="_blank"><img
-                src="../img/diplome/Certif_Pro_Dev_web.jpg" class="img-fluid card-img-top"
-                alt="Titre Professionnel de Développeur Web et Web Mobile"
-                title="Titre Professionnel de Développeur Web et Web Mobile. RNCP 31114, NSF 326t (bac+2). Année 2019. Cliquez pour afficher."></a>
-          </div>
+      <div class="col-md-10 col-lg-5 col-sm-10 offset-sm-1 col mx-auto">
+        <div class="mx-auto card" style="width: 28rem;">
+          <a href="../img/diplome/Certif_Pro_Dev_web.pdf" target="_blank"><img
+              src="../img/diplome/Certif_Pro_Dev_web.jpg" class="img-fluid card-img-top"
+              alt="Titre Professionnel de Développeur Web et Web Mobile"
+              title="Titre Professionnel de Développeur Web et Web Mobile. RNCP 31114, NSF 326t (bac+2). Année 2019. Cliquez pour afficher."></a>
         </div>
-
       </div>
 
+    </div>
 
 
-      <h3><span class="info police badge col mx-auto"><br />Diplômes scolaires<br /><br /></span></h3>
 
-      <div class="space row no-gutters">
+    <h3><span class="info police badge col mx-auto"><br />Diplômes scolaires<br /><br /></span></h3>
 
-        <div class="col-md-10 col-lg-5 col-sm-10 offset-sm-1 col float right">
-          <div class="center-mr card" style="width: 28rem;">
-            <a href="../img/diplome/master.pdf" target="_blank"><img src="../img/diplome/master.jpg"
-                class="img-fluid card-img-top" alt="Master"
-                title="Master mention Langue, Idée, Société, spécialité Philosophie, à finalité Recherche - Mention Assez Bien. Année 2017. Cliquez pour afficher."></a>
-          </div>
+    <div class="space row no-gutters">
+
+      <div class="col-md-10 col-lg-5 col-sm-10 offset-sm-1 col float right">
+        <div class="center-mr card" style="width: 28rem;">
+          <a href="../img/diplome/master.pdf" target="_blank"><img src="../img/diplome/master.jpg"
+              class="img-fluid card-img-top" alt="Master"
+              title="Master mention Langue, Idée, Société, spécialité Philosophie, à finalité Recherche - Mention Assez Bien. Année 2017. Cliquez pour afficher."></a>
         </div>
-
-        <div class="col-md-10 col-lg-5 col-sm-10 offset-sm-1 col float left">
-          <div class="center-ml card" style="width: 28rem;">
-            <a href="../img/diplome/licence.pdf" target="_blank"><img src="../img/diplome/licence.jpg"
-                class="img-fluid card-img-top" alt="Licence"
-                title="Licence Sciences Humaines et Sociales, mention Philosophie. Année 2012. Cliquez pour afficher."></a>
-          </div>
-        </div>
-
       </div>
 
-
-      <div class="space bottom row no-gutters">
-
-        <div class="col-md-10 col-lg-5 col-sm-10 offset-sm-1 col float right">
-          <div class="center-mr card" style="width: 28rem;">
-            <a href="../img/diplome/bac.pdf" target="_blank"><img src="../img/diplome/bac.jpg"
-                class="img-fluid card-img-top" alt="Bac"
-                title="Baccalauréat Général, série Economique et Sociale. Année 2009. Cliquez pour afficher."></a>
-          </div>
+      <div class="col-md-10 col-lg-5 col-sm-10 offset-sm-1 col float left">
+        <div class="center-ml card" style="width: 28rem;">
+          <a href="../img/diplome/licence.pdf" target="_blank"><img src="../img/diplome/licence.jpg"
+              class="img-fluid card-img-top" alt="Licence"
+              title="Licence Sciences Humaines et Sociales, mention Philosophie. Année 2012. Cliquez pour afficher."></a>
         </div>
-
-        <div class="col-md-10 col-lg-5 col-sm-10 offset-sm-1 col float left">
-          <div class="center-ml card" style="width: 28rem;">
-            <a href="../img/diplome/brevet.pdf" target="_blank"><img src="../img/diplome/brevet.jpg"
-                class="img-fluid card-img-top" alt="Brevet"
-                title="Diplôme Nationale du Brevet. Année 2006. Cliquez pour afficher."></a>
-          </div>
-        </div>
-
       </div>
 
+    </div>
 
-      <h3>
-        <div class="info police badge col mx-auto"><br />Certificats scolaires<br /><br /></div>
-      </h3>
 
-      <div class="space bottom row no-gutters">
+    <div class="space bottom row no-gutters">
 
-        <div class="col-md-10 col-lg-5 col-sm-10 offset-sm-1 col float right">
-          <div class="center-mr card" style="width: 28rem;">
-            <a href="../img/diplome/cles1.pdf" target="_blank"><img src="../img/diplome/cles1.png"
-                class="img-fluid card-img-top" alt="CLES1"
-                title="CLES1 Anglais Enseignant. Année 2014. Cliquez pour afficher."></a>
-          </div>
+      <div class="col-md-10 col-lg-5 col-sm-10 offset-sm-1 col float right">
+        <div class="center-mr card" style="width: 28rem;">
+          <a href="../img/diplome/bac.pdf" target="_blank"><img src="../img/diplome/bac.jpg"
+              class="img-fluid card-img-top" alt="Bac"
+              title="Baccalauréat Général, série Economique et Sociale. Année 2009. Cliquez pour afficher."></a>
         </div>
-
-        <div class="col-md-10 col-lg-5 col-sm-10 offset-sm-1 col float left">
-          <div class="center-ml card" style="width: 28rem;">
-            <img src="../img/diplome/C2i.png" class="img-fluid card-img-top" alt="C2i"
-              title="C2i Niveau 2 Enseignant. Année 2014.">
-          </div>
-        </div>
-
       </div>
 
-
-      <h3>
-        <div class="info police badge col mx-auto"><br />Certificats civiques<br /><br /></div>
-      </h3>
-
-      <div class="space bottom row no-gutters">
-
-        <div class="col-md-10 col-lg-5 col-sm-10 offset-sm-1 col float right">
-          <div class="center-mr card" style="width: 28rem;">
-            <a href="../img/diplome/psc1.jpg" target="_blank"><img src="../img/diplome/psc1.jpg"
-                class="img-fluid card-img-top" alt="PSC1"
-                title="Prévention et Secours Civiques de niveau 1. Octobre 2015. Cliquez pour afficher."></a>
-          </div>
+      <div class="col-md-10 col-lg-5 col-sm-10 offset-sm-1 col float left">
+        <div class="center-ml card" style="width: 28rem;">
+          <a href="../img/diplome/brevet.pdf" target="_blank"><img src="../img/diplome/brevet.jpg"
+              class="img-fluid card-img-top" alt="Brevet"
+              title="Diplôme Nationale du Brevet. Année 2006. Cliquez pour afficher."></a>
         </div>
-
-        <div class="col-md-10 col-lg-5 col-sm-10 offset-sm-1 col float left">
-          <div class="center-ml card" style="width: 28rem;">
-            <a href="../img/diplome/nat.jpg" target="_blank"><img src="../img/diplome/nat_mini.png"
-                class="img-fluid card-img-top" alt="Brevet de natation" title="Brevet de natation. Mars 2015."></a>
-          </div>
-        </div>
-
       </div>
 
+    </div>
 
 
-      <h3>
-        <div class="info police badge col mx-auto"><br />Autre<br /><br /></div>
-      </h3>
+    <h3>
+      <div class="info police badge col mx-auto"><br />Certificats scolaires<br /><br /></div>
+    </h3>
 
-      <div class="space bottom row no-gutters">
+    <div class="space bottom row no-gutters">
 
-        <div class="col-md-10 col-lg-5 col-sm-10 offset-sm-1 col float right">
-          <div class="center-mr card" style="width: 28rem;">
-            <a href="../img/diplome/seminaire_hung_gar.jpg" target="_blank"><img
-                src="../img/diplome/seminaire_hung_gar.jpg" class="img-fluid card-img-top"
-                alt="Certificat de participation au séminaire de Kung-fu Hung Gar sous la direction de Maître J-P Cabrol, été 2018."
-                title="Certificat de participation au séminaire de Kung-fu Hung Gar sous la direction de Maître J-P Cabrol (Thieulâm). Été 2018. Cliquez pour afficher."></a>
-          </div>
+      <div class="col-md-10 col-lg-5 col-sm-10 offset-sm-1 col float right">
+        <div class="center-mr card" style="width: 28rem;">
+          <a href="../img/diplome/cles1.pdf" target="_blank"><img src="../img/diplome/cles1.png"
+              class="img-fluid card-img-top" alt="CLES1"
+              title="CLES1 Anglais Enseignant. Année 2014. Cliquez pour afficher."></a>
         </div>
+      </div>
 
-        <div class="col-md-10 col-lg-5 col-sm-10 offset-sm-1 col float left">
-          <div class="center-ml card" style="width: 28rem;">
-            <a href="../img/diplome/kung_fu.jpg" target="_blank"><img src="../img/diplome/kung_fu.jpg"
-                class="img-fluid card-img-top" alt="Diplôme de 1er grade de Kung-Fu Wu Shu"
-                title="Diplôme de 1er grade de Kung-Fu Wu Shu, sous la direction de Maître Li Qin (ACSEC). Année 2002. Cliquez pour afficher.">
-          </div>
+      <div class="col-md-10 col-lg-5 col-sm-10 offset-sm-1 col float left">
+        <div class="center-ml card" style="width: 28rem;">
+          <img src="../img/diplome/C2i.png" class="img-fluid card-img-top" alt="C2i"
+            title="C2i Niveau 2 Enseignant. Année 2014.">
         </div>
+      </div>
 
+    </div>
+
+
+    <h3>
+      <div class="info police badge col mx-auto"><br />Certificats civiques<br /><br /></div>
+    </h3>
+
+    <div class="space bottom row no-gutters">
+
+      <div class="col-md-10 col-lg-5 col-sm-10 offset-sm-1 col float right">
+        <div class="center-mr card" style="width: 28rem;">
+          <a href="../img/diplome/psc1.jpg" target="_blank"><img src="../img/diplome/psc1.jpg"
+              class="img-fluid card-img-top" alt="PSC1"
+              title="Prévention et Secours Civiques de niveau 1. Octobre 2015. Cliquez pour afficher."></a>
+        </div>
+      </div>
+
+      <div class="col-md-10 col-lg-5 col-sm-10 offset-sm-1 col float left">
+        <div class="center-ml card" style="width: 28rem;">
+          <a href="../img/diplome/nat.jpg" target="_blank"><img src="../img/diplome/nat_mini.png"
+              class="img-fluid card-img-top" alt="Brevet de natation" title="Brevet de natation. Mars 2015."></a>
+        </div>
+      </div>
+
+    </div>
+
+
+
+    <h3>
+      <div class="info police badge col mx-auto"><br />Autre<br /><br /></div>
+    </h3>
+
+    <div class="space bottom row no-gutters">
+
+      <div class="col-md-10 col-lg-5 col-sm-10 offset-sm-1 col float right">
+        <div class="center-mr card" style="width: 28rem;">
+          <a href="../img/diplome/seminaire_hung_gar.jpg" target="_blank"><img
+              src="../img/diplome/seminaire_hung_gar.jpg" class="img-fluid card-img-top"
+              alt="Certificat de participation au séminaire de Kung-fu Hung Gar sous la direction de Maître J-P Cabrol, été 2018."
+              title="Certificat de participation au séminaire de Kung-fu Hung Gar sous la direction de Maître J-P Cabrol (Thieulâm). Été 2018. Cliquez pour afficher."></a>
+        </div>
+      </div>
+
+      <div class="col-md-10 col-lg-5 col-sm-10 offset-sm-1 col float left">
+        <div class="center-ml card" style="width: 28rem;">
+          <a href="../img/diplome/kung_fu.jpg" target="_blank"><img src="../img/diplome/kung_fu.jpg"
+              class="img-fluid card-img-top" alt="Diplôme de 1er grade de Kung-Fu Wu Shu"
+              title="Diplôme de 1er grade de Kung-Fu Wu Shu, sous la direction de Maître Li Qin (ACSEC). Année 2002. Cliquez pour afficher.">
+        </div>
       </div>
 
     </div>
 
   </div>
 
-
-
-
-
-
-
-
-
-
-
+</div>
 
   <!-- FOOTER START -->
 
@@ -427,7 +430,7 @@
 
 
       <!-- Copyright - Start -->
-      <div class="footer-copyright text-center py-3 text-white">© 2019 - 2021 | Copyright : Paul Compère 🐲
+      <div class="footer-copyright text-center py-3 text-white">© 2019 - 2023 | Copyright : Paul Compère 🐲
       </div>
       <!-- Copyright - End -->
 
@@ -437,34 +440,37 @@
   <!-- FOOTER END -->
 
 
-  <!-- SCRIPTS -->
+<!--|____________________________________|-->
+<!--|----------------------------------- |-->
+<!--|             SCRIPTS                |-->
+<!--|----------------------------------- |-->
+<!--|____________________________________|-->
 
   <!-- JavaScript CDN always at the end of the body to avoid bugs -->
-  <!-- First : JQuery CDN -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
-  <script src="../assets/CDN/jquery.min.js"></script>
-  <!-- Then : Popper.js CDN -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    <!-- First : JQuery CDN -->
+    <script
+			  src="https://code.jquery.com/jquery-3.6.4.min.js"
+			  integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8="
+			  crossorigin="anonymous"></script>
+    <script src="../assets/CDN/jquery.min.js"></script>
+    <!-- Then : Popper.js CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
     integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
     crossorigin="anonymous"></script>
-  <script src="../assets/CDN/popper.min.js"
-    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-    crossorigin="anonymous"></script>
-  <!-- Finally : Bootstrap.js CDN -->
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    <script src="../assets/CDN/popper.min.js"></script>
+    <!-- Finally : Bootstrap.js CDN -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
     crossorigin="anonymous"></script>
-  <script src="../assets/CDN/bootstrap.min.js"
-    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-    crossorigin="anonymous"></script>
+    <script src="../assets/CDN/bootstrap.min.js"></script>
   <!-- Sweet alert 2 -->
-  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@8"></script>
-  <script src="../assets/CDN/sweetalert2@8.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script src="../assets/CDN/sweetalert2@11.js"></script>
   <!-- Font Awesome CDN for using fa-fa and icons -->
   <script src="https://kit.fontawesome.com/eaadffbb2b.js"></script>
   <script src="../assets/CDN/eaadffbb2b.js"></script>
   <!-- Script for animation -->
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
   <script src="../assets/CDN/aos.js"></script>
   <!-- Link with JS sheet (always after JQuery CDN) -->
   <script src="../assets/scripts/script.js"></script>
